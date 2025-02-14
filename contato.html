@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Crescer</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Irish+Grover&family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="banner">
+        <img id="urso" src="img/ursinho.jpg" alt="">
+        <p id="logoclinica"> Clínica Crescer</p>
+    </header>
+    <nav id="contato">
+        <ul>
+            <a href="index.html" Home>
+                <li class="navhome">Home</li>
+            </a>
+            <a href="index.html#sobre">
+                <li class="navhome">Sobre a Clínica</li>
+            </a>
+            <a href="index.html#especialidades">
+                <li class="navhome">Especialidades</li>
+            </a>
+            <a href="#contato">
+                <li class="navhome">Marque sua consulta</li>
+            </a>
+        </ul>
+    </nav>
+    
+    <section id="pag-contato">
+    <h2 id="consulta"> Marque sua consulta </h2>
+    
+    <form name="" method="" action="">
+        <label for="Nome">Nome do responsável:</label></br>
+        <input id="Nome" type="text" name="nome" placeholder="Digite o seu nome" required />
+ 
+        <label for="Nome">Nome da criança:</label></br>
+        <input id="Nome" type="text" name="nomedacrianca" placeholder="Digite o nome do(a) seu(sua) filho(a)" required />  
+
+       <label for="Nome">Idade da criança:</label></br>
+        <input id="Nome" type="text" name="idadedacrianca" placeholder="Digite a idade do(a) seu(sua) filho(a)" required /> 
+        
+        <label for="Nome">E-mail:</label></br>
+        <input id="Nome" type="text" name="Email" placeholder="seuemail@email.com.br" required /> 
+
+        <label for="Nome">Especialidade:</label></br>
+        <input id="Nome" type="text" name="Especialidade" placeholder="Digite qual especialidade deseja a consulta" required />
+        
+        <label for="Nome">Telefone:</label></br>
+        <input id="Nome" type="text" name="Telefone" placeholder="(xx) xxxxx-xxxx" required />
+    
+        <div id="botao-form">
+        <input type="submit" name="bnt-enviar" value="ENVIAR" onclick="clicou()"/>
+        </div>
+
+    </form>
+    </section>
+
+    <footer><p class="rodape">Desenvolvido por Deborah Queiroz, Isabela Marques e Julia Sousa - 2025</p></footer>
+</body>
+<script>
+    function clicou(){
+        alert('Pronto! Enviado.')
+    }
+</script>
+</html>
