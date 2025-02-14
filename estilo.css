@@ -210,11 +210,8 @@ nav#contato{
 }
 #contato ul a li{
     margin-bottom: 74px;
-}
- li{
     list-style: none;
-    
- }
+}
 
 .navhome{
     text-align: center;
